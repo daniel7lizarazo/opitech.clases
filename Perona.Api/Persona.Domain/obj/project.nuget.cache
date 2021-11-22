@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XBiD4X73KHU2BUXjcjbN/DRF9guM8ulntmAoRITPTqRWjlED4jB5CxHWyspXKs7YfbCZcF/6uOBe1u/ZJNjgng==",
+  "dgSpecHash": "kGcZ20MF8NvCOMFu0fEkdTBzjYM2Gqb4dEq9kT8fq2f4I5B9bLx+r4K49/rPeymjLnTo2KkJAkuhwES1dBKnNg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\david\\OneDrive\\Documentos\\Curso.POO\\Perona.Api\\Persona.Domain\\Persona.Domain.csproj",
+  "projectFilePath": "C:\\opitech.clases\\Perona.Api\\Persona.Domain\\Persona.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -11,3 +11,16 @@ C:\Users\david\OneDrive\Documentos\Curso.POO\Perona.Api\Persona.Infraestructure\
 C:\Users\david\OneDrive\Documentos\Curso.POO\Perona.Api\Persona.Infraestructure\obj\Debug\netstandard2.1\Persona.Infraestructure.csproj.CopyComplete
 C:\Users\david\OneDrive\Documentos\Curso.POO\Perona.Api\Persona.Infraestructure\obj\Debug\netstandard2.1\Persona.Infraestructure.dll
 C:\Users\david\OneDrive\Documentos\Curso.POO\Perona.Api\Persona.Infraestructure\obj\Debug\netstandard2.1\Persona.Infraestructure.pdb
+C:\opitech.clases\Perona.Api\Persona.Infraestructure\bin\Debug\netstandard2.1\Persona.Infraestructure.deps.json
+C:\opitech.clases\Perona.Api\Persona.Infraestructure\bin\Debug\netstandard2.1\Persona.Infraestructure.dll
+C:\opitech.clases\Perona.Api\Persona.Infraestructure\bin\Debug\netstandard2.1\Persona.Infraestructure.pdb
+C:\opitech.clases\Perona.Api\Persona.Infraestructure\bin\Debug\netstandard2.1\Persona.Domain.dll
+C:\opitech.clases\Perona.Api\Persona.Infraestructure\bin\Debug\netstandard2.1\Persona.Domain.pdb
+C:\opitech.clases\Perona.Api\Persona.Infraestructure\obj\Debug\netstandard2.1\Persona.Infraestructure.csproj.AssemblyReference.cache
+C:\opitech.clases\Perona.Api\Persona.Infraestructure\obj\Debug\netstandard2.1\Persona.Infraestructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\opitech.clases\Perona.Api\Persona.Infraestructure\obj\Debug\netstandard2.1\Persona.Infraestructure.AssemblyInfoInputs.cache
+C:\opitech.clases\Perona.Api\Persona.Infraestructure\obj\Debug\netstandard2.1\Persona.Infraestructure.AssemblyInfo.cs
+C:\opitech.clases\Perona.Api\Persona.Infraestructure\obj\Debug\netstandard2.1\Persona.Infraestructure.csproj.CoreCompileInputs.cache
+C:\opitech.clases\Perona.Api\Persona.Infraestructure\obj\Debug\netstandard2.1\Persona.Infraestructure.csproj.CopyComplete
+C:\opitech.clases\Perona.Api\Persona.Infraestructure\obj\Debug\netstandard2.1\Persona.Infraestructure.dll
+C:\opitech.clases\Perona.Api\Persona.Infraestructure\obj\Debug\netstandard2.1\Persona.Infraestructure.pdb

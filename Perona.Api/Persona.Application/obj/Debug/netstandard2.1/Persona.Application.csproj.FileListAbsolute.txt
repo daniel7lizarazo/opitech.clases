@@ -11,3 +11,16 @@ C:\Users\david\OneDrive\Documentos\Curso.POO\Perona.Api\Persona.Application\obj\
 C:\Users\david\OneDrive\Documentos\Curso.POO\Perona.Api\Persona.Application\obj\Debug\netstandard2.1\Persona.Application.csproj.CopyComplete
 C:\Users\david\OneDrive\Documentos\Curso.POO\Perona.Api\Persona.Application\obj\Debug\netstandard2.1\Persona.Application.dll
 C:\Users\david\OneDrive\Documentos\Curso.POO\Perona.Api\Persona.Application\obj\Debug\netstandard2.1\Persona.Application.pdb
+C:\opitech.clases\Perona.Api\Persona.Application\bin\Debug\netstandard2.1\Persona.Application.deps.json
+C:\opitech.clases\Perona.Api\Persona.Application\bin\Debug\netstandard2.1\Persona.Application.dll
+C:\opitech.clases\Perona.Api\Persona.Application\bin\Debug\netstandard2.1\Persona.Application.pdb
+C:\opitech.clases\Perona.Api\Persona.Application\bin\Debug\netstandard2.1\Persona.Domain.dll
+C:\opitech.clases\Perona.Api\Persona.Application\bin\Debug\netstandard2.1\Persona.Domain.pdb
+C:\opitech.clases\Perona.Api\Persona.Application\obj\Debug\netstandard2.1\Persona.Application.csproj.AssemblyReference.cache
+C:\opitech.clases\Perona.Api\Persona.Application\obj\Debug\netstandard2.1\Persona.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\opitech.clases\Perona.Api\Persona.Application\obj\Debug\netstandard2.1\Persona.Application.AssemblyInfoInputs.cache
+C:\opitech.clases\Perona.Api\Persona.Application\obj\Debug\netstandard2.1\Persona.Application.AssemblyInfo.cs
+C:\opitech.clases\Perona.Api\Persona.Application\obj\Debug\netstandard2.1\Persona.Application.csproj.CoreCompileInputs.cache
+C:\opitech.clases\Perona.Api\Persona.Application\obj\Debug\netstandard2.1\Persona.Application.csproj.CopyComplete
+C:\opitech.clases\Perona.Api\Persona.Application\obj\Debug\netstandard2.1\Persona.Application.dll
+C:\opitech.clases\Perona.Api\Persona.Application\obj\Debug\netstandard2.1\Persona.Application.pdb

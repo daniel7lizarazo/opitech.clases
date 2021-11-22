@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\david\\OneDrive\\Documentos\\Curso.POO\\Perona.Api\\Perona.Api\\Perona.Api.csproj": {}
+    "C:\\opitech.clases\\Perona.Api\\Perona.Api\\Perona.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\david\\OneDrive\\Documentos\\Curso.POO\\Perona.Api\\Perona.Api\\Perona.Api.csproj": {
+    "C:\\opitech.clases\\Perona.Api\\Perona.Api\\Perona.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\david\\OneDrive\\Documentos\\Curso.POO\\Perona.Api\\Perona.Api\\Perona.Api.csproj",
+        "projectUniqueName": "C:\\opitech.clases\\Perona.Api\\Perona.Api\\Perona.Api.csproj",
         "projectName": "Perona.Api",
-        "projectPath": "C:\\Users\\david\\OneDrive\\Documentos\\Curso.POO\\Perona.Api\\Perona.Api\\Perona.Api.csproj",
+        "projectPath": "C:\\opitech.clases\\Perona.Api\\Perona.Api\\Perona.Api.csproj",
         "packagesPath": "C:\\Users\\david\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\david\\OneDrive\\Documentos\\Curso.POO\\Perona.Api\\Perona.Api\\obj\\",
+        "outputPath": "C:\\opitech.clases\\Perona.Api\\Perona.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
+          "C:\\opitech.clases\\Perona.Api\\NuGet.Config",
           "C:\\Users\\david\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
@@ -26,15 +27,18 @@
         "originalTargetFrameworks": [
           "net5.0"
         ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\david\\OneDrive\\Documentos\\Curso.POO\\Perona.Api\\Persona.Application\\Persona.Application.csproj": {
-                "projectPath": "C:\\Users\\david\\OneDrive\\Documentos\\Curso.POO\\Perona.Api\\Persona.Application\\Persona.Application.csproj"
+              "C:\\opitech.clases\\Perona.Api\\Persona.Application\\Persona.Application.csproj": {
+                "projectPath": "C:\\opitech.clases\\Perona.Api\\Persona.Application\\Persona.Application.csproj"
               },
-              "C:\\Users\\david\\OneDrive\\Documentos\\Curso.POO\\Perona.Api\\Persona.Infraestructure\\Persona.Infraestructure.csproj": {
-                "projectPath": "C:\\Users\\david\\OneDrive\\Documentos\\Curso.POO\\Perona.Api\\Persona.Infraestructure\\Persona.Infraestructure.csproj"
+              "C:\\opitech.clases\\Perona.Api\\Persona.Infraestructure\\Persona.Infraestructure.csproj": {
+                "projectPath": "C:\\opitech.clases\\Perona.Api\\Persona.Infraestructure\\Persona.Infraestructure.csproj"
               }
             }
           }
@@ -76,20 +80,21 @@
         }
       }
     },
-    "C:\\Users\\david\\OneDrive\\Documentos\\Curso.POO\\Perona.Api\\Persona.Application\\Persona.Application.csproj": {
+    "C:\\opitech.clases\\Perona.Api\\Persona.Application\\Persona.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\david\\OneDrive\\Documentos\\Curso.POO\\Perona.Api\\Persona.Application\\Persona.Application.csproj",
+        "projectUniqueName": "C:\\opitech.clases\\Perona.Api\\Persona.Application\\Persona.Application.csproj",
         "projectName": "Persona.Application",
-        "projectPath": "C:\\Users\\david\\OneDrive\\Documentos\\Curso.POO\\Perona.Api\\Persona.Application\\Persona.Application.csproj",
+        "projectPath": "C:\\opitech.clases\\Perona.Api\\Persona.Application\\Persona.Application.csproj",
         "packagesPath": "C:\\Users\\david\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\david\\OneDrive\\Documentos\\Curso.POO\\Perona.Api\\Persona.Application\\obj\\",
+        "outputPath": "C:\\opitech.clases\\Perona.Api\\Persona.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
+          "C:\\opitech.clases\\Perona.Api\\NuGet.Config",
           "C:\\Users\\david\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
@@ -98,12 +103,15 @@
         "originalTargetFrameworks": [
           "netstandard2.1"
         ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
         "frameworks": {
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "C:\\Users\\david\\OneDrive\\Documentos\\Curso.POO\\Perona.Api\\Persona.Domain\\Persona.Domain.csproj": {
-                "projectPath": "C:\\Users\\david\\OneDrive\\Documentos\\Curso.POO\\Perona.Api\\Persona.Domain\\Persona.Domain.csproj"
+              "C:\\opitech.clases\\Perona.Api\\Persona.Domain\\Persona.Domain.csproj": {
+                "projectPath": "C:\\opitech.clases\\Perona.Api\\Persona.Domain\\Persona.Domain.csproj"
               }
             }
           }
@@ -136,20 +144,21 @@
         }
       }
     },
-    "C:\\Users\\david\\OneDrive\\Documentos\\Curso.POO\\Perona.Api\\Persona.Domain\\Persona.Domain.csproj": {
+    "C:\\opitech.clases\\Perona.Api\\Persona.Domain\\Persona.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\david\\OneDrive\\Documentos\\Curso.POO\\Perona.Api\\Persona.Domain\\Persona.Domain.csproj",
+        "projectUniqueName": "C:\\opitech.clases\\Perona.Api\\Persona.Domain\\Persona.Domain.csproj",
         "projectName": "Persona.Domain",
-        "projectPath": "C:\\Users\\david\\OneDrive\\Documentos\\Curso.POO\\Perona.Api\\Persona.Domain\\Persona.Domain.csproj",
+        "projectPath": "C:\\opitech.clases\\Perona.Api\\Persona.Domain\\Persona.Domain.csproj",
         "packagesPath": "C:\\Users\\david\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\david\\OneDrive\\Documentos\\Curso.POO\\Perona.Api\\Persona.Domain\\obj\\",
+        "outputPath": "C:\\opitech.clases\\Perona.Api\\Persona.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
+          "C:\\opitech.clases\\Perona.Api\\NuGet.Config",
           "C:\\Users\\david\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
@@ -158,6 +167,9 @@
         "originalTargetFrameworks": [
           "netstandard2.1"
         ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
         "frameworks": {
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
@@ -192,20 +204,21 @@
         }
       }
     },
-    "C:\\Users\\david\\OneDrive\\Documentos\\Curso.POO\\Perona.Api\\Persona.Infraestructure\\Persona.Infraestructure.csproj": {
+    "C:\\opitech.clases\\Perona.Api\\Persona.Infraestructure\\Persona.Infraestructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\david\\OneDrive\\Documentos\\Curso.POO\\Perona.Api\\Persona.Infraestructure\\Persona.Infraestructure.csproj",
+        "projectUniqueName": "C:\\opitech.clases\\Perona.Api\\Persona.Infraestructure\\Persona.Infraestructure.csproj",
         "projectName": "Persona.Infraestructure",
-        "projectPath": "C:\\Users\\david\\OneDrive\\Documentos\\Curso.POO\\Perona.Api\\Persona.Infraestructure\\Persona.Infraestructure.csproj",
+        "projectPath": "C:\\opitech.clases\\Perona.Api\\Persona.Infraestructure\\Persona.Infraestructure.csproj",
         "packagesPath": "C:\\Users\\david\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\david\\OneDrive\\Documentos\\Curso.POO\\Perona.Api\\Persona.Infraestructure\\obj\\",
+        "outputPath": "C:\\opitech.clases\\Perona.Api\\Persona.Infraestructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
+          "C:\\opitech.clases\\Perona.Api\\NuGet.Config",
           "C:\\Users\\david\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
@@ -214,12 +227,15 @@
         "originalTargetFrameworks": [
           "netstandard2.1"
         ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
         "frameworks": {
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "C:\\Users\\david\\OneDrive\\Documentos\\Curso.POO\\Perona.Api\\Persona.Domain\\Persona.Domain.csproj": {
-                "projectPath": "C:\\Users\\david\\OneDrive\\Documentos\\Curso.POO\\Perona.Api\\Persona.Domain\\Persona.Domain.csproj"
+              "C:\\opitech.clases\\Perona.Api\\Persona.Domain\\Persona.Domain.csproj": {
+                "projectPath": "C:\\opitech.clases\\Perona.Api\\Persona.Domain\\Persona.Domain.csproj"
               }
             }
           }
@@ -233,6 +249,12 @@
       "frameworks": {
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.10.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

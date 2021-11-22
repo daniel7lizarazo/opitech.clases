@@ -5,18 +5,10 @@ namespace Perona.Api.Controllers
 {
     [ApiController]
     [Route("api/persona")]
-    public class PersonaApi : ControllerBase
+    public class PersonaApi: BaseController<Persona.Domain.Persona, string>
     {
-        private readonly ICrearUserApplicationService crearUserApplicationService;
-        public PersonaApi(ICrearUserApplicationService crearUserApplicationService)
+        public PersonaApi(ICrudService<Persona.Domain.Persona, string> crudService) : base(crudService)
         {
-            this.crearUserApplicationService = crearUserApplicationService;
-        }
-
-        [HttpPost]
-        public Persona.Domain.Persona CrearPersona(Persona.Domain.Persona perona)
-        {
-            return crearUserApplicationService.CrearPersona(perona);
         }
     }
 }
