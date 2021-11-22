@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "3be608bd-a4b8-49bf-85f6-18d7e2a113f8": {
+      "ProjectGuid": "3be608bd-a4b8-49bf-85f6-18d7e2a113f8",
+      "DisplayName": "Persona.Application",
+      "ColorIndex": 0
+    },
+    "60b594be-ae1c-4b8f-a3b6-e5c802ef1485": {
+      "ProjectGuid": "60b594be-ae1c-4b8f-a3b6-e5c802ef1485",
+      "DisplayName": "Persona.Domain",
+      "ColorIndex": 1
+    },
+    "41792cdb-3be5-4439-a010-5d408304023c": {
+      "ProjectGuid": "41792cdb-3be5-4439-a010-5d408304023c",
+      "DisplayName": "Persona.Infraestructure",
+      "ColorIndex": 2
+    },
+    "de8d6f6f-a0dd-4b21-9ac0-ae02d235ed43": {
+      "ProjectGuid": "de8d6f6f-a0dd-4b21-9ac0-ae02d235ed43",
+      "DisplayName": "Perona.Api",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}

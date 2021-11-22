@@ -1,0 +1,37 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.1/",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.1": {},
+    ".NETStandard,Version=v2.1/": {
+      "Persona.Application/1.0.0": {
+        "dependencies": {
+          "Persona.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Persona.Application.dll": {}
+        }
+      },
+      "Persona.Domain/1.0.0": {
+        "runtime": {
+          "Persona.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Persona.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Persona.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

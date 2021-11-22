@@ -1,0 +1,13 @@
+C:\Users\david\OneDrive\Documentos\Curso.POO\Perona.Api\Persona.Infraestructure\bin\Debug\netstandard2.1\Persona.Infraestructure.deps.json
+C:\Users\david\OneDrive\Documentos\Curso.POO\Perona.Api\Persona.Infraestructure\bin\Debug\netstandard2.1\Persona.Infraestructure.dll
+C:\Users\david\OneDrive\Documentos\Curso.POO\Perona.Api\Persona.Infraestructure\bin\Debug\netstandard2.1\Persona.Infraestructure.pdb
+C:\Users\david\OneDrive\Documentos\Curso.POO\Perona.Api\Persona.Infraestructure\bin\Debug\netstandard2.1\Persona.Domain.dll
+C:\Users\david\OneDrive\Documentos\Curso.POO\Perona.Api\Persona.Infraestructure\bin\Debug\netstandard2.1\Persona.Domain.pdb
+C:\Users\david\OneDrive\Documentos\Curso.POO\Perona.Api\Persona.Infraestructure\obj\Debug\netstandard2.1\Persona.Infraestructure.csproj.AssemblyReference.cache
+C:\Users\david\OneDrive\Documentos\Curso.POO\Perona.Api\Persona.Infraestructure\obj\Debug\netstandard2.1\Persona.Infraestructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\david\OneDrive\Documentos\Curso.POO\Perona.Api\Persona.Infraestructure\obj\Debug\netstandard2.1\Persona.Infraestructure.AssemblyInfoInputs.cache
+C:\Users\david\OneDrive\Documentos\Curso.POO\Perona.Api\Persona.Infraestructure\obj\Debug\netstandard2.1\Persona.Infraestructure.AssemblyInfo.cs
+C:\Users\david\OneDrive\Documentos\Curso.POO\Perona.Api\Persona.Infraestructure\obj\Debug\netstandard2.1\Persona.Infraestructure.csproj.CoreCompileInputs.cache
+C:\Users\david\OneDrive\Documentos\Curso.POO\Perona.Api\Persona.Infraestructure\obj\Debug\netstandard2.1\Persona.Infraestructure.csproj.CopyComplete
+C:\Users\david\OneDrive\Documentos\Curso.POO\Perona.Api\Persona.Infraestructure\obj\Debug\netstandard2.1\Persona.Infraestructure.dll
+C:\Users\david\OneDrive\Documentos\Curso.POO\Perona.Api\Persona.Infraestructure\obj\Debug\netstandard2.1\Persona.Infraestructure.pdb
