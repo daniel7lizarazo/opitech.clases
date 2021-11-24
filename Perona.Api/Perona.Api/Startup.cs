@@ -1,8 +1,11 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using System.Linq;
+using System.Reflection;
 
 namespace Perona.Api
 {
@@ -19,7 +22,8 @@ namespace Perona.Api
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-            services.AddEntity<Persona.Domain.Persona, string>();
+            services.StartEntities(typeof(Persona.Domain.Persona).Assembly);
+            services.StartAutomapper();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -34,6 +38,7 @@ namespace Perona.Api
 
             app.UseAuthorization();
 
+            
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();

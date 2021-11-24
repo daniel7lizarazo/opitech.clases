@@ -6,10 +6,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
     <PackageReference Include="MongoDB.Driver" Version="2.10.3" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Persona.Application\Persona.Application.csproj" />
     <ProjectReference Include="..\Persona.Domain\Persona.Domain.csproj" />
   </ItemGroup>
 

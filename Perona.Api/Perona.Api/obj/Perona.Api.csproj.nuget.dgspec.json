@@ -52,6 +52,12 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -234,6 +240,9 @@
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
+              "C:\\opitech.clases\\Perona.Api\\Persona.Application\\Persona.Application.csproj": {
+                "projectPath": "C:\\opitech.clases\\Perona.Api\\Persona.Application\\Persona.Application.csproj"
+              },
               "C:\\opitech.clases\\Perona.Api\\Persona.Domain\\Persona.Domain.csproj": {
                 "projectPath": "C:\\opitech.clases\\Perona.Api\\Persona.Domain\\Persona.Domain.csproj"
               }
@@ -250,6 +259,10 @@
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
             "MongoDB.Driver": {
               "target": "Package",
               "version": "[2.10.3, )"

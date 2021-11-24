@@ -2,8 +2,8 @@
 
 namespace Persona.Domain
 {
-    [Entity("PersonasNuevas")]
-    public class Persona : Entity<string>
+    [Entity("PerrosMasGrandes")]
+    public class Perro: Entity<int>
     {
         public string Nombre { get; set; }
         public string Edad { get; set; }

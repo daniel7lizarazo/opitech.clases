@@ -62,3 +62,5 @@ C:\opitech.clases\Perona.Api\Perona.Api\bin\Debug\net5.0\MongoDB.Driver.dll
 C:\opitech.clases\Perona.Api\Perona.Api\bin\Debug\net5.0\MongoDB.Driver.Core.dll
 C:\opitech.clases\Perona.Api\Perona.Api\bin\Debug\net5.0\MongoDB.Libmongocrypt.dll
 C:\opitech.clases\Perona.Api\Perona.Api\bin\Debug\net5.0\SharpCompress.dll
+C:\opitech.clases\Perona.Api\Perona.Api\bin\Debug\net5.0\AutoMapper.dll
+C:\opitech.clases\Perona.Api\Perona.Api\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

@@ -24,3 +24,5 @@ C:\opitech.clases\Perona.Api\Persona.Infraestructure\obj\Debug\netstandard2.1\Pe
 C:\opitech.clases\Perona.Api\Persona.Infraestructure\obj\Debug\netstandard2.1\Persona.Infraestructure.csproj.CopyComplete
 C:\opitech.clases\Perona.Api\Persona.Infraestructure\obj\Debug\netstandard2.1\Persona.Infraestructure.dll
 C:\opitech.clases\Perona.Api\Persona.Infraestructure\obj\Debug\netstandard2.1\Persona.Infraestructure.pdb
+C:\opitech.clases\Perona.Api\Persona.Infraestructure\bin\Debug\netstandard2.1\Persona.Application.dll
+C:\opitech.clases\Perona.Api\Persona.Infraestructure\bin\Debug\netstandard2.1\Persona.Application.pdb

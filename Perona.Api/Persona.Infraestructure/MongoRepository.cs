@@ -1,10 +1,13 @@
 ﻿using MongoDB.Bson;
 using MongoDB.Driver;
 using Persona.Domain;
+using Persona.Domain.Attributes;
 using Persona.Domain.Repositories;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq.Expressions;
+using System.Reflection;
 using System.Threading.Tasks;
 
 namespace Persona.Infraestructure
@@ -20,7 +23,7 @@ namespace Persona.Infraestructure
         public MongoRepository(string host, string dbName)
         {
             var _client = new MongoClient(host);
-            mongoCollection = _client.GetDatabase(dbName).GetCollection<TEntity>(typeof(TEntity).Name);
+            mongoCollection = _client.GetDatabase(dbName).GetCollection<TEntity>(typeof(TEntity).GetCustomAttribute<EntityAttribute>()?.CollectionName ?? typeof(TEntity).Name);
         }
 
         public bool Delete(TEntity entity)
