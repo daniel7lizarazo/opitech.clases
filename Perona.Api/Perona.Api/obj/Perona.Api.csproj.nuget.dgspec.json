@@ -56,6 +56,10 @@
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[8.1.1, )"
+            },
+            "Hoga.Tech.DependencyInjection.Extension.Apsnetcore": {
+              "target": "Package",
+              "version": "[2.4.2, )"
             }
           },
           "imports": [
@@ -131,6 +135,12 @@
       "frameworks": {
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Hoga.Tech.DependencyInjection": {
+              "target": "Package",
+              "version": "[2.4.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -191,6 +201,12 @@
       "frameworks": {
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Hoga.Tech.DependencyInjection": {
+              "target": "Package",
+              "version": "[2.4.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -262,6 +278,10 @@
             "AutoMapper": {
               "target": "Package",
               "version": "[10.1.1, )"
+            },
+            "Hoga.Tech.DependencyInjection": {
+              "target": "Package",
+              "version": "[2.4.2, )"
             },
             "MongoDB.Driver": {
               "target": "Package",

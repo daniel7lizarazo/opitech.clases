@@ -64,3 +64,15 @@ C:\opitech.clases\Perona.Api\Perona.Api\bin\Debug\net5.0\MongoDB.Libmongocrypt.d
 C:\opitech.clases\Perona.Api\Perona.Api\bin\Debug\net5.0\SharpCompress.dll
 C:\opitech.clases\Perona.Api\Perona.Api\bin\Debug\net5.0\AutoMapper.dll
 C:\opitech.clases\Perona.Api\Perona.Api\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\opitech.clases\Perona.Api\Perona.Api\bin\Debug\net5.0\_config\hoga.tech.app.config
+C:\opitech.clases\Perona.Api\Perona.Api\bin\Debug\net5.0\_config\hoga.tech.dependencyinjection.config
+C:\opitech.clases\Perona.Api\Perona.Api\bin\Debug\net5.0\Hoga.Tech.Configuration.dll
+C:\opitech.clases\Perona.Api\Perona.Api\bin\Debug\net5.0\Hoga.Tech.DependencyInjection.dll
+C:\opitech.clases\Perona.Api\Perona.Api\bin\Debug\net5.0\Hoga.Tech.DependencyInjection.Extension.Apsnetcore.dll
+C:\opitech.clases\Perona.Api\Perona.Api\bin\Debug\net5.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\opitech.clases\Perona.Api\Perona.Api\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
+C:\opitech.clases\Perona.Api\Perona.Api\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\opitech.clases\Perona.Api\Perona.Api\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\opitech.clases\Perona.Api\Perona.Api\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\opitech.clases\Perona.Api\Perona.Api\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\opitech.clases\Perona.Api\Perona.Api\obj\Debug\net5.0\Perona.Api.MvcApplicationPartsAssemblyInfo.cs

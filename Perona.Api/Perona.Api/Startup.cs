@@ -4,8 +4,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using System.Linq;
-using System.Reflection;
+using Hoga.Tech.DependencyInjection.Extension.Apsnetcore;
+using Hoga.Tech.DependecyInjection;
 
 namespace Perona.Api
 {
@@ -22,8 +22,8 @@ namespace Perona.Api
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-            services.StartEntities(typeof(Persona.Domain.Persona).Assembly);
-            services.StartAutomapper();
+            services.StartHogaMvC(true);
+            ContainerBuilder.CleanCache();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
