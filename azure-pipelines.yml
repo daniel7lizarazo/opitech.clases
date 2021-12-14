@@ -32,3 +32,10 @@ steps:
     clean: true
     configuration: release
     msbuildArchitecture: 'x64'
+    
+- task: VSTest@2
+  inputs:
+    testSelector: 'testAssemblies'
+    testAssemblyVer2: |
+      **\*Test*.dll
+    searchFolder: '$(System.DefaultWorkingDirectory)'
