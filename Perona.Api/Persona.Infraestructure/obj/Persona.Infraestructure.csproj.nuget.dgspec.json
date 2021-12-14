@@ -28,7 +28,9 @@
           "netstandard2.1"
         ],
         "sources": {
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/davidtorresky1/Hoga.Framework/_packaging/Hoga.Framework/nuget/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.1": {
@@ -98,7 +100,9 @@
           "netstandard2.1"
         ],
         "sources": {
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/davidtorresky1/Hoga.Framework/_packaging/Hoga.Framework/nuget/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.1": {
@@ -164,7 +168,9 @@
           "netstandard2.1"
         ],
         "sources": {
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/davidtorresky1/Hoga.Framework/_packaging/Hoga.Framework/nuget/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.1": {

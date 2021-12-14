@@ -3,13 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Perona.Api", "Perona.Api\Perona.Api.csproj", "{DE8D6F6F-A0DD-4B21-9AC0-AE02D235ED43}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Perona.Api", "Perona.Api\Perona.Api.csproj", "{DE8D6F6F-A0DD-4B21-9AC0-AE02D235ED43}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persona.Application", "Persona.Application\Persona.Application.csproj", "{3BE608BD-A4B8-49BF-85F6-18D7E2A113F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Persona.Application", "Persona.Application\Persona.Application.csproj", "{3BE608BD-A4B8-49BF-85F6-18D7E2A113F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persona.Domain", "Persona.Domain\Persona.Domain.csproj", "{60B594BE-AE1C-4B8F-A3B6-E5C802EF1485}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Persona.Domain", "Persona.Domain\Persona.Domain.csproj", "{60B594BE-AE1C-4B8F-A3B6-E5C802EF1485}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persona.Infraestructure", "Persona.Infraestructure\Persona.Infraestructure.csproj", "{41792CDB-3BE5-4439-A010-5D408304023C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Persona.Infraestructure", "Persona.Infraestructure\Persona.Infraestructure.csproj", "{41792CDB-3BE5-4439-A010-5D408304023C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTest", "UnitTest", "{4CB5CA42-C6F8-4BC4-A24F-215CC3ED3F41}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTest", "UnitTest\UnitTest.csproj", "{ECD27E7D-D7BC-4FDE-BB32-F42FAD405EE7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,9 +37,16 @@ Global
 		{41792CDB-3BE5-4439-A010-5D408304023C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{41792CDB-3BE5-4439-A010-5D408304023C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{41792CDB-3BE5-4439-A010-5D408304023C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECD27E7D-D7BC-4FDE-BB32-F42FAD405EE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECD27E7D-D7BC-4FDE-BB32-F42FAD405EE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECD27E7D-D7BC-4FDE-BB32-F42FAD405EE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECD27E7D-D7BC-4FDE-BB32-F42FAD405EE7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ECD27E7D-D7BC-4FDE-BB32-F42FAD405EE7} = {4CB5CA42-C6F8-4BC4-A24F-215CC3ED3F41}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4DD8E2D9-77B2-4EE1-AC67-8AFE0308CE40}

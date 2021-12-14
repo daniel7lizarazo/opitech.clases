@@ -2,7 +2,7 @@
 {
     public interface IAnimal
     {
-        public string Name { get; set; }
+        public string? Name { get; set; }
 
         void Comer();
     }

@@ -1,16 +1,18 @@
 ﻿using Hoga.Tech.DependecyInjection;
 using Hoga.Tech.DependecyInjection.Interface;
+using Persona.Application.Exceptions;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace Persona.Application.Bridge.Register
 {
     public abstract class Register<TModel,TInterfaceBrige,TInterface> where TModel : class, new()
     {
-        private List<Tuple<Func<TModel, bool>, Type>> Items = new List<Tuple<Func<TModel, bool>, Type>>();
-        private IContainer _container;
+        private readonly List<Tuple<Func<TModel, bool>, Type>> Items = new List<Tuple<Func<TModel, bool>, Type>>();
+        private readonly IContainer _container;
 
-        public Register()
+        protected Register()
         {
             _container = ContainerBuilder.GetContainer();
         }
@@ -24,19 +26,11 @@ namespace Persona.Application.Bridge.Register
 
         public TInterface ResolveInstance(TModel model)
         {
-            Type typeToResolve = null;
-            foreach (var item in Items)
-            {
-                if (item.Item1(model))
-                {
-                    typeToResolve = item.Item2;
-                    break;
-                }
-            }
+            Type typeToResolve = Items.FirstOrDefault(it => it.Item1(model)).Item2; 
 
             if(typeToResolve == null)
             {
-                return default;
+                throw new RegisterNotFoundException("Not register type");
             }
 
             return (TInterface)_container.Resolve(typeToResolve);

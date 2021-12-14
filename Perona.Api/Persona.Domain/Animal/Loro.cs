@@ -5,9 +5,8 @@ namespace Persona.Domain.Animal
     [DependName("Loro")]
     public class Loro : IAnimal
     {
-        public string Name { get; set ; }
-
-        public string YoSoyLoro { get; set; }
+        public string? YoSoyLoro { get; set; }
+        public string? Name { get; set; }
 
         public void Comer()
         {

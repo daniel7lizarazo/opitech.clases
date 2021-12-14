@@ -2,6 +2,6 @@
 {
     public enum TipoCuenta
     {
-        Ahorros, Corriente
+        Ahorros, Corriente, Credito
     }
 }

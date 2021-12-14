@@ -8,7 +8,9 @@ namespace Persona.Application.Bridge
         {
             this.AddItem<DesembolsarCuentaAhorros>(it => { 
                 return it.TipoCuenta == TipoCuenta.Ahorros; 
-            }).AddItem<DesembolsarCuetnaCorriente>(it=> it.TipoCuenta == TipoCuenta.Corriente);
+            }).AddItem<DesembolsarCuetnaCorriente>(it=> {
+                return it.TipoCuenta == TipoCuenta.Corriente;
+                });
         }
     }
 }

@@ -25,7 +25,17 @@
       "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
       "DisplayName": "Miscellaneous Files",
       "ColorIndex": -1
+    },
+    "ecd27e7d-d7bc-4fde-bb32-f42fad405ee7": {
+      "ProjectGuid": "ecd27e7d-d7bc-4fde-bb32-f42fad405ee7",
+      "DisplayName": "UnitTest",
+      "ColorIndex": 4
+    },
+    "4088a356-dbc9-44d8-b78b-d6962c2b9b6e": {
+      "ProjectGuid": "4088a356-dbc9-44d8-b78b-d6962c2b9b6e",
+      "DisplayName": "IntegrationTest",
+      "ColorIndex": 5
     }
   },
-  "NextColorIndex": 4
+  "NextColorIndex": 6
 }
