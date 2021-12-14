@@ -21,4 +21,4 @@ steps:
     command: 'restore'
     restoreSolution: '**/*.csproj'
     feedsToUse: 'config'
-    nugetConfigPath: '**/Nuget.config'
+    nugetConfigPath: 'Perona.Api/Nuget.config'
