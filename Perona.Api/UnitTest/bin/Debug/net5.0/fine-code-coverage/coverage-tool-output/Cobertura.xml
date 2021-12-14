@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
-<coverage line-rate="0.6563706563706564" branch-rate="0.8333333333333334" lines-covered="170" lines-valid="259" branches-covered="20" branches-valid="24" complexity="93" version="0" timestamp="1638524538">
+<coverage line-rate="0.6468253968253969" branch-rate="0.8181818181818182" lines-covered="163" lines-valid="252" branches-covered="18" branches-valid="22" complexity="91" version="0" timestamp="1639500609">
   <sources>
     <source>C:\</source>
   </sources>
   <packages>
-    <package name="Persona.Application" line-rate="0.6038961038961039" branch-rate="0.8333333333333334" complexity="63">
+    <package name="Persona.Application" line-rate="0.5850340136054422" branch-rate="0.8181818181818182" complexity="61">
       <classes>
         <class name="Persona.Application._Intaller.Intall" filename="C:\opitech.clases\Perona.Api\Persona.Application\_Intaller\Intall.cs" line-rate="0.9354838709677419" branch-rate="0.7777777777777778" complexity="21">
           <methods>
@@ -387,70 +387,56 @@
             <line number="14" hits="5" branch="false" />
           </lines>
         </class>
-        <class name="Persona.Application.Bridge.Register.Register`3" filename="C:\opitech.clases\Perona.Api\Persona.Application\Bridge\Register\Register.cs" line-rate="1" branch-rate="1" complexity="8">
+        <class name="Persona.Application.Bridge.Register.Register`3" filename="C:\opitech.clases\Perona.Api\Persona.Application\Bridge\Register\Register.cs" line-rate="1" branch-rate="1" complexity="6">
           <methods>
             <method name="AddItem" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="20" hits="2" branch="false" />
                 <line number="21" hits="2" branch="false" />
                 <line number="22" hits="2" branch="false" />
                 <line number="23" hits="2" branch="false" />
                 <line number="24" hits="2" branch="false" />
+                <line number="25" hits="2" branch="false" />
               </lines>
             </method>
-            <method name="ResolveInstance" signature="(...)" line-rate="1" branch-rate="1" complexity="6">
+            <method name="ResolveInstance" signature="(...)" line-rate="1" branch-rate="1" complexity="4">
               <lines>
-                <line number="27" hits="3" branch="false" />
                 <line number="28" hits="3" branch="false" />
-                <line number="29" hits="17" branch="true" condition-coverage="100% (2/2)" />
-                <line number="30" hits="5" branch="false" />
-                <line number="31" hits="5" branch="true" condition-coverage="100% (2/2)" />
-                <line number="32" hits="2" branch="false" />
-                <line number="33" hits="2" branch="false" />
-                <line number="34" hits="2" branch="false" />
-                <line number="36" hits="3" branch="false" />
-                <line number="38" hits="3" branch="true" condition-coverage="100% (2/2)" />
-                <line number="39" hits="1" branch="false" />
-                <line number="40" hits="1" branch="false" />
-                <line number="43" hits="2" branch="false" />
-                <line number="44" hits="2" branch="false" />
+                <line number="29" hits="8" branch="true" condition-coverage="100% (2/2)" />
+                <line number="31" hits="3" branch="true" condition-coverage="100% (2/2)" />
+                <line number="32" hits="1" branch="false" />
+                <line number="33" hits="1" branch="false" />
+                <line number="36" hits="2" branch="false" />
+                <line number="37" hits="2" branch="false" />
               </lines>
             </method>
             <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="11" hits="1" branch="false" />
-                <line number="14" hits="1" branch="false" />
+                <line number="12" hits="1" branch="false" />
                 <line number="15" hits="1" branch="false" />
                 <line number="16" hits="1" branch="false" />
                 <line number="17" hits="1" branch="false" />
+                <line number="18" hits="1" branch="false" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="11" hits="1" branch="false" />
-            <line number="14" hits="1" branch="false" />
+            <line number="12" hits="1" branch="false" />
             <line number="15" hits="1" branch="false" />
             <line number="16" hits="1" branch="false" />
             <line number="17" hits="1" branch="false" />
-            <line number="20" hits="2" branch="false" />
+            <line number="18" hits="1" branch="false" />
             <line number="21" hits="2" branch="false" />
             <line number="22" hits="2" branch="false" />
             <line number="23" hits="2" branch="false" />
             <line number="24" hits="2" branch="false" />
-            <line number="27" hits="3" branch="false" />
+            <line number="25" hits="2" branch="false" />
             <line number="28" hits="3" branch="false" />
-            <line number="29" hits="17" branch="true" condition-coverage="100% (2/2)" />
-            <line number="30" hits="5" branch="false" />
-            <line number="31" hits="5" branch="true" condition-coverage="100% (2/2)" />
-            <line number="32" hits="2" branch="false" />
-            <line number="33" hits="2" branch="false" />
-            <line number="34" hits="2" branch="false" />
-            <line number="36" hits="3" branch="false" />
-            <line number="38" hits="3" branch="true" condition-coverage="100% (2/2)" />
-            <line number="39" hits="1" branch="false" />
-            <line number="40" hits="1" branch="false" />
-            <line number="43" hits="2" branch="false" />
-            <line number="44" hits="2" branch="false" />
+            <line number="29" hits="8" branch="true" condition-coverage="100% (2/2)" />
+            <line number="31" hits="3" branch="true" condition-coverage="100% (2/2)" />
+            <line number="32" hits="1" branch="false" />
+            <line number="33" hits="1" branch="false" />
+            <line number="36" hits="2" branch="false" />
+            <line number="37" hits="2" branch="false" />
           </lines>
         </class>
         <class name="Persona.Application.Bridge.RegisterConsignacion" filename="C:\opitech.clases\Perona.Api\Persona.Application\Bridge\RegisterConsignacion.cs" line-rate="1" branch-rate="1" complexity="1">
@@ -551,28 +537,28 @@
       <classes>
         <class name="Persona.Domain.Animal.Loro" filename="C:\opitech.clases\Perona.Api\Persona.Domain\Animal\Loro.cs" line-rate="0" branch-rate="1" complexity="3">
           <methods>
-            <method name="get_Name" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name="get_YoSoyLoro" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
                 <line number="8" hits="0" branch="false" />
               </lines>
             </method>
-            <method name="get_YoSoyLoro" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name="get_Name" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
-                <line number="10" hits="0" branch="false" />
+                <line number="9" hits="0" branch="false" />
               </lines>
             </method>
             <method name="Comer" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
+                <line number="12" hits="0" branch="false" />
                 <line number="13" hits="0" branch="false" />
-                <line number="14" hits="0" branch="false" />
               </lines>
             </method>
           </methods>
           <lines>
             <line number="8" hits="0" branch="false" />
-            <line number="10" hits="0" branch="false" />
+            <line number="9" hits="0" branch="false" />
+            <line number="12" hits="0" branch="false" />
             <line number="13" hits="0" branch="false" />
-            <line number="14" hits="0" branch="false" />
           </lines>
         </class>
         <class name="Persona.Domain.Animal.Perro" filename="C:\opitech.clases\Perona.Api\Persona.Domain\Animal\Perro.cs" line-rate="0" branch-rate="1" complexity="3">
@@ -767,17 +753,19 @@
           <methods>
             <method name="Setup" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
+                <line number="16" hits="3" branch="false" />
+                <line number="17" hits="3" branch="false" />
                 <line number="18" hits="3" branch="false" />
                 <line number="19" hits="3" branch="false" />
                 <line number="20" hits="3" branch="false" />
-                <line number="21" hits="3" branch="false" />
-                <line number="22" hits="3" branch="false" />
               </lines>
             </method>
             <method name="NotFoundAcountTypeTest" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
+                <line number="25" hits="1" branch="false" />
+                <line number="26" hits="2" branch="false" />
                 <line number="27" hits="1" branch="false" />
-                <line number="28" hits="2" branch="false" />
+                <line number="28" hits="1" branch="false" />
                 <line number="29" hits="1" branch="false" />
                 <line number="30" hits="1" branch="false" />
                 <line number="31" hits="1" branch="false" />
@@ -785,47 +773,47 @@
                 <line number="33" hits="1" branch="false" />
                 <line number="34" hits="1" branch="false" />
                 <line number="35" hits="1" branch="false" />
-                <line number="36" hits="1" branch="false" />
-                <line number="37" hits="1" branch="false" />
               </lines>
             </method>
             <method name="ConsignarAhorroTest" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
+                <line number="40" hits="1" branch="false" />
+                <line number="41" hits="1" branch="false" />
                 <line number="42" hits="1" branch="false" />
                 <line number="43" hits="1" branch="false" />
                 <line number="44" hits="1" branch="false" />
                 <line number="45" hits="1" branch="false" />
                 <line number="46" hits="1" branch="false" />
                 <line number="47" hits="1" branch="false" />
-                <line number="48" hits="1" branch="false" />
                 <line number="49" hits="1" branch="false" />
-                <line number="51" hits="1" branch="false" />
-                <line number="52" hits="1" branch="false" />
+                <line number="50" hits="1" branch="false" />
               </lines>
             </method>
             <method name="ConsignarCorrienteTest" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
+                <line number="55" hits="1" branch="false" />
+                <line number="56" hits="1" branch="false" />
                 <line number="57" hits="1" branch="false" />
                 <line number="58" hits="1" branch="false" />
                 <line number="59" hits="1" branch="false" />
                 <line number="60" hits="1" branch="false" />
                 <line number="61" hits="1" branch="false" />
                 <line number="62" hits="1" branch="false" />
-                <line number="63" hits="1" branch="false" />
                 <line number="64" hits="1" branch="false" />
-                <line number="66" hits="1" branch="false" />
-                <line number="67" hits="1" branch="false" />
+                <line number="65" hits="1" branch="false" />
               </lines>
             </method>
           </methods>
           <lines>
+            <line number="16" hits="3" branch="false" />
+            <line number="17" hits="3" branch="false" />
             <line number="18" hits="3" branch="false" />
             <line number="19" hits="3" branch="false" />
             <line number="20" hits="3" branch="false" />
-            <line number="21" hits="3" branch="false" />
-            <line number="22" hits="3" branch="false" />
+            <line number="25" hits="1" branch="false" />
+            <line number="26" hits="2" branch="false" />
             <line number="27" hits="1" branch="false" />
-            <line number="28" hits="2" branch="false" />
+            <line number="28" hits="1" branch="false" />
             <line number="29" hits="1" branch="false" />
             <line number="30" hits="1" branch="false" />
             <line number="31" hits="1" branch="false" />
@@ -833,28 +821,26 @@
             <line number="33" hits="1" branch="false" />
             <line number="34" hits="1" branch="false" />
             <line number="35" hits="1" branch="false" />
-            <line number="36" hits="1" branch="false" />
-            <line number="37" hits="1" branch="false" />
+            <line number="40" hits="1" branch="false" />
+            <line number="41" hits="1" branch="false" />
             <line number="42" hits="1" branch="false" />
             <line number="43" hits="1" branch="false" />
             <line number="44" hits="1" branch="false" />
             <line number="45" hits="1" branch="false" />
             <line number="46" hits="1" branch="false" />
             <line number="47" hits="1" branch="false" />
-            <line number="48" hits="1" branch="false" />
             <line number="49" hits="1" branch="false" />
-            <line number="51" hits="1" branch="false" />
-            <line number="52" hits="1" branch="false" />
+            <line number="50" hits="1" branch="false" />
+            <line number="55" hits="1" branch="false" />
+            <line number="56" hits="1" branch="false" />
             <line number="57" hits="1" branch="false" />
             <line number="58" hits="1" branch="false" />
             <line number="59" hits="1" branch="false" />
             <line number="60" hits="1" branch="false" />
             <line number="61" hits="1" branch="false" />
             <line number="62" hits="1" branch="false" />
-            <line number="63" hits="1" branch="false" />
             <line number="64" hits="1" branch="false" />
-            <line number="66" hits="1" branch="false" />
-            <line number="67" hits="1" branch="false" />
+            <line number="65" hits="1" branch="false" />
           </lines>
         </class>
         <class name="UnitTest.PersonCrudTest" filename="C:\opitech.clases\Perona.Api\UnitTest\PersonCrudTest.cs" line-rate="1" branch-rate="1" complexity="4">
