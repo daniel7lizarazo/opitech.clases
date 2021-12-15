@@ -46,4 +46,11 @@ steps:
     codeCoverageEnabled: True
     searchFolder: '$(System.DefaultWorkingDirectory)'
 
+- task: SonarQubePrepare@5
+  inputs:
+    SonarQube: 'AzureTest'
+    scannerMode: 'MSBuild'
+    projectKey: 'PruebaTest'
+    projectName: 'PruebaTest'
+
 - task: SonarQubeAnalyze@5
