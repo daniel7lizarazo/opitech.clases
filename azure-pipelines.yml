@@ -45,3 +45,5 @@ steps:
     diagnosticsEnabled: True
     codeCoverageEnabled: True
     searchFolder: '$(System.DefaultWorkingDirectory)'
+
+- task: SonarQubeAnalyze@5
