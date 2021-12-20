@@ -33,9 +33,24 @@ steps:
     configuration: release
     msbuildArchitecture: 'x64'
     
+
 - task: VSTest@2
   inputs:
     testSelector: 'testAssemblies'
     testAssemblyVer2: |
       **\*UnitTest*.dll
+      !**\*TestAdapter.dll
+      !**\obj\**
+      !**\bin\**\ref\**
+    diagnosticsEnabled: True
+    codeCoverageEnabled: True
     searchFolder: '$(System.DefaultWorkingDirectory)'
+
+- task: SonarQubePrepare@5
+  inputs:
+    SonarQube: 'AzureTest'
+    scannerMode: 'MSBuild'
+    projectKey: 'PruebaTest'
+    projectName: 'PruebaTest'
+
+- task: SonarQubeAnalyze@5
