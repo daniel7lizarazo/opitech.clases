@@ -38,4 +38,9 @@ steps:
     testSelector: 'testAssemblies'
     testAssemblyVer2: |
       **\*UnitTest*.dll
+      !**\*TestAdapter.dll
+      !**\obj\**
+      !**\bin\**\ref\**
+    diagnosticsEnabled: True
+    codeCoverageEnabled: True
     searchFolder: '$(System.DefaultWorkingDirectory)'
